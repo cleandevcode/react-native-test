@@ -1,4 +1,0 @@
-#Tue Apr 13 01:54:28 BST 2021
-base.0=D\:\\workstation\\Martin\\timeapp-main\\firstclocktimer\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

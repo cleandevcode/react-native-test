@@ -1,0 +1,14 @@
+com/firstclocktimer/BuildConfig.java
+ com.firstclocktimer.BuildConfig
+com/firstclocktimer/MainActivity.java
+ com.firstclocktimer.MainActivity
+com/firstclocktimer/MainApplication.java
+ com.firstclocktimer.MainApplication
+ com.firstclocktimer.MainApplication$1
+com/firstclocktimer/ReactNativeFlipper.java
+ com.firstclocktimer.ReactNativeFlipper
+ com.firstclocktimer.ReactNativeFlipper$1
+ com.firstclocktimer.ReactNativeFlipper$2
+ com.firstclocktimer.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

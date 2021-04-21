@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.firstclocktimer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:5:5-66
+13-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.75.1] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.75.1] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:react-native-camera] D:\workstation\Martin\timeapp-main\firstclocktimer\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:9:5-65
+15-->[:react-native-camera] D:\workstation\Martin\timeapp-main\firstclocktimer\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:9:22-62
+16
+17    <uses-feature
+17-->[:react-native-camera] D:\workstation\Martin\timeapp-main\firstclocktimer\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+18        android:name="android.hardware.camera"
+18-->[:react-native-camera] D:\workstation\Martin\timeapp-main\firstclocktimer\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+19        android:required="false" />
+19-->[:react-native-camera] D:\workstation\Martin\timeapp-main\firstclocktimer\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+20    <uses-feature
+20-->[:react-native-camera] D:\workstation\Martin\timeapp-main\firstclocktimer\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+21        android:name="android.hardware.camera.autofocus"
+21-->[:react-native-camera] D:\workstation\Martin\timeapp-main\firstclocktimer\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+22        android:required="false" />
+22-->[:react-native-camera] D:\workstation\Martin\timeapp-main\firstclocktimer\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+23
+24    <application
+24-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:7:5-25:19
+25        android:name="com.firstclocktimer.MainApplication"
+25-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:8:7-38
+26        android:allowBackup="false"
+26-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:12:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:10:7-41
+30        android:label="@string/app_name"
+30-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:9:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:11:7-52
+32        android:theme="@style/AppTheme"
+32-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:13:7-38
+33        android:usesCleartextTraffic="true" >
+33-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\debug\AndroidManifest.xml:8:9-44
+34        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+34-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\debug\AndroidManifest.xml:11:9-86
+34-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\debug\AndroidManifest.xml:11:19-83
+35        <activity
+35-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:14:7-24:18
+36            android:name="com.firstclocktimer.MainActivity"
+36-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:15:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:17:9-86
+38            android:label="@string/app_name"
+38-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:16:9-41
+39            android:launchMode="singleTask"
+39-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:18:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:19:9-51
+41            <intent-filter>
+41-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:20:9-23:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:21:13-65
+42-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:21:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:22:13-73
+44-->D:\workstation\Martin\timeapp-main\firstclocktimer\android\app\src\main\AndroidManifest.xml:22:23-70
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\4120c81b837f4330051f5ed2f6db9613\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+48            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+48-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\4120c81b837f4330051f5ed2f6db9613\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+49            android:exported="false"
+49-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\4120c81b837f4330051f5ed2f6db9613\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\4120c81b837f4330051f5ed2f6db9613\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+51
+52        <meta-data
+52-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\d9e1f6f3703c9d9209481e7b6b0cce85\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+53            android:name="com.google.android.gms.version"
+53-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\d9e1f6f3703c9d9209481e7b6b0cce85\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+54            android:value="@integer/google_play_services_version" />
+54-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\panda\.gradle\caches\transforms-2\files-2.1\d9e1f6f3703c9d9209481e7b6b0cce85\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+55    </application>
+56
+57</manifest>
